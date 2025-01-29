@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <theme>dark</theme>
+        <encoding>UTF-8</encoding>
+        <protocol>https</protocol>
+        <documentTitle>Migros - Pet Shop Test Automation Report</documentTitle>
+        <reportName>Pet Shop Test Automation Report</reportName>
+        <timeStampFormat>MMM dd, yyyy HH:mm:ss</timeStampFormat>
+    </configuration>
+</extentreports> 
