@@ -13,6 +13,7 @@ public class Driver {
     public static WebDriver getDriver() {
         if (driver.get() == null) {
             String browser = System.getProperty("browser", "chrome");
+            System.out.println("The browser is : "+browser);
             try {
                 switch (browser.toLowerCase()) {
                     case "firefox":
@@ -21,7 +22,7 @@ public class Driver {
                         driver.set(new FirefoxDriver(firefoxOptions));
                         break;
                     default:
-                        WebDriverManager.chromedriver().browserVersion("stable").setup();
+                        WebDriverManager.chromedriver().setup();
                         ChromeOptions chromeOptions = new ChromeOptions();
                         driver.set(new ChromeDriver(chromeOptions));
                 }
